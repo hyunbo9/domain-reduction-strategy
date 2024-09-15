@@ -1,0 +1,8 @@
+grid:
+  _base_: components/grid
+
+sampler:
+  _base_: components/sampler
+
+output_dir: runs/
+wandb_config_path: secrets/wandb.yaml

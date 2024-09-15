@@ -1,0 +1,11 @@
+grid:
+  _base_: components/grid
+
+sampler:
+  _base_: components/sampler
+
+solver:
+  _base_: components/solver
+
+data:
+  _base_: data/znlos_bunny

@@ -1,0 +1,3 @@
+_target_: drs.data.ZNLOSData
+raw_root_dir: datasets/znlos_raw
+subsample_stride: 8

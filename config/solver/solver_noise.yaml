@@ -1,0 +1,3 @@
+_base_: solver
+lambda_l1: 8e-1
+lambda_noise_handler: 6

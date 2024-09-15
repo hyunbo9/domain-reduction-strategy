@@ -1,0 +1,3 @@
+_target_: drs.sampling.InputPointsSampler
+min_z: 0.2
+sample_range: 0.5

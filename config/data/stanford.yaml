@@ -1,0 +1,3 @@
+_target_: drs.data.StanfordData
+raw_root_dir: datasets/stanford_raw
+subsample_stride: 8

@@ -1,0 +1,8 @@
+.idea
+__pycache__
+
+/build
+/datasets
+/runs
+/secrets
+*.so

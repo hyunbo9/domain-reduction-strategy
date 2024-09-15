@@ -1,0 +1,7 @@
+_base_: main_base
+
+solver:
+  _base_: solver/solver_noise
+
+data:
+  _base_: data/stanford_statue

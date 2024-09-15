@@ -1,0 +1,7 @@
+_base_: main_base
+
+solver:
+  _base_: solver/solver
+
+data:
+  _base_: data/znlos_bunny

@@ -1,0 +1,10 @@
+_target_: drs.solver.NLOSOptimizationSolver
+lr: 1
+num_steps: 1000
+lambda_l1: 5e-4
+reduction_interval: 50
+upsample_interval: 100
+logging_interval: 100
+target_resolution: 128
+reduction_sigma: 3.0
+reduction_threshold: 0.05
