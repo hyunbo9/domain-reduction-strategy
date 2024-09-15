@@ -1,3 +1,4 @@
+from os import path
 from argparse import ArgumentParser
 
 import engine
@@ -25,7 +26,7 @@ def main():
 
     loggers = [LocalLogger(save_dir=engine.to_experiment_dir())]
     wandb_config_path = cfg.get('wandb_config_path', None)
-    if (wandb_config_path is not None) and not args.debug:
+    if (wandb_config_path is not None) and path.exists(wandb_config_path) and not args.debug:
         loggers.append(WandbLogger(name=args.name,
                                    save_dir=engine.to_experiment_dir('wandb'),
                                    config_path=wandb_config_path))
