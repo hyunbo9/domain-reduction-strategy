@@ -1,6 +1,6 @@
 # Domain Reduction Strategy for Non-Line-of-Sight Imaging
 
-Hyunbo Shim<sup>&ast;</sup>, In Cho<sup>&ast;</sup>, Daekyu
+Hyunbo Shim<sup>&ast;</sup>, [In Cho](https://sites.google.com/view/im-join)<sup>&ast;</sup>, Daekyu
 Kwon, [Seon Joo Kim](https://sites.google.com/site/seonjookim/) (&ast; Equal contribution)
 
 [[`arXiv`](https://arxiv.org/abs/2308.10269)] [[`BibTeX`](#Citation)]

@@ -52,7 +52,7 @@ class NLOSOptimizationSolver(nn.Module):
         self.target_resolution = target_resolution
         self.reduction_sigma = reduction_sigma
         self.reduction_threshold = reduction_threshold
-        self.bast_time_idx_scale = base_time_idx_scale
+        self.base_time_idx_scale = base_time_idx_scale
 
         self.loggers = loggers
         self.data = data
@@ -119,7 +119,7 @@ class NLOSOptimizationSolver(nn.Module):
         grid_coords, coords = self.sampler.sample()
         albedo, normal = self.grid(grid_coords)
 
-        base_time_idx = self.data.T * self.bast_time_idx_scale
+        base_time_idx = self.data.T * self.base_time_idx_scale
         falloff_scale = base_time_idx * self.data.bin_length
         falloff_scale = 1 / falloff_scale
         params = self.data.get_cuda_params()
